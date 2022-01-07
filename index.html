@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Delicious Restaurant</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+      <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
+      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mon-Sat: 11:00 AM - 23:00 PM</span></i>
+    </div>
+  </section>
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <div class="logo me-auto">
+        <h1><a href="index.html">Delicious</a></h1>
+         </div>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+          <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
+          <li><a class="nav-link scrollto" href="#events">Events</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Book a table</a>
+    </div>
+  </header>
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="background: url(assets/img/slide/slide-1.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Delicious</span> Restaurant</h2>
+                <p class="animate__animated animate__fadeInUp">Recently opened in spring 2017, Delicious Restaurant sits in a privileged spot, on the edge of San Sebastián’s old town beside the port, with impressive sea views, only moments from the beach, at the entrance to Mount Urgull and right in the city centre.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Book a Table</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-2.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">A privileged location</h2>
+                <p class="animate__animated animate__fadeInUp">Looking over San Sebastián’s Port and with unbeatable views of La Concha Bay, at the Delicious we embrace the city’s most traditional aroma from a modern and avant-guard approach..</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Book a Table</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg);">
+            <div class="carousel-background"><img src="assets/img/slide/slide-3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Synonym of comfort</h2>
+                <p class="animate__animated animate__fadeInUp">We have 29 bedrooms equipped with the latest technologies. The perfect counterpoint of elegance and well-being in a location offering the best views in all of Delicious.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Book a Table</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/about.jpg");'>
+           </a>
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+            <div class="content">
+              <h3>Delicious...  Authentic Goodness  <strong>delicious is sprouting its sapling in the beautiful, vibrant city of Fuquay-Varina, North Carolina</strong></h3>
+              <p>
+                We serve the most authentic, traditional Indian food, providing high standards in service and quality.
+              </p>
+              <p class="fst-italic">
+                Our sincere effort is to make your dining experience memorable by bringing to you centuries old Cuisine, and recipes from our mother’s kitchen..
+              </p>
+              <ul>
+                <li><i class="bx bx-check-double"></i> Our mission is to provide you with the deepest pleasure of quality dining and exceptional service.</li>
+                <li><i class="bx bx-check-double"></i> We take pride in our well experienced team which has become a part of our family and business over the years of working together.</li>
+                <li><i class="bx bx-check-double"></i> As a part of the Main Street hub for the food enthusiast, our sole effort is to present you with fresh food, new savors and various robust flavors from turmeric, zeera (cumin), ginger, carom seeds and an array of unique spices which will be a treat to your palate.</li>
+              </ul>
+              <p>
+                We specialize in Indian breads(Naan), meats grilled in tandoor, variety of curries,and biryani.We provide an excellent choice of various exotic vegetables, lentils, breads, aromatic rice, meat and much more.
+                Our extensive menu includes a fine collection of wine and spirits in addition to well-known traditional Indian dishes.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Why choose <span>Our Restaurant</span></h2>
+          <p>The atmosphere, or ambience, of our restaurant matters a lot. You can have the most mouth-watering meals on the planet. </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box">
+              <span>01</span>
+              <h4>Service</h4>
+              <p>When you find a restaurant you like, befriend the waiters and waitresses. Treat them kindly as you would treat your own friends and you will find that you will get great service all the time.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <span>02</span>
+              <h4>Ambience</h4>
+              <p>Sometimes, the restaurant may be beautiful but the décor is not to your taste. It jars your senses. Go to a place where you enjoy the general atmosphere.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <span>03</span>
+              <h4> Cuisine</h4>
+              <p>There are evenings when you just want a particular cuisine. And if that restaurant is the only one available where you live, there is really not much choice.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="menu" class="menu">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Check our tasty <span>Menu</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Show All</li>
+              <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-salads">Salads</li>
+              <li data-filter=".filter-specialty">Specialty</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container">
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Lobster Bisque</a><span>$5.95</span>
+            </div>
+            <div class="menu-ingredients">
+              White wine, cooked lobster meat, heavy cream, tomato paste
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Bread barrel</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Butter, eggs, white sugar, whole milk, vanilla essence
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Crab Cake</a><span>$7.95</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Pisto</a><span>$8.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Zucchini, green bell peppers, red bell peppers, brown sugar
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Mozzarella Stick</a><span>$4.95</span>
+            </div>
+            <div class="menu-ingredients">
+              String cheese, marinara sauce, milk, italian style, eggs
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Greek Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Spinach Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Lobster Roll</a><span>$12.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="specials" class="specials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Check our <span>Specials</span></h2>
+          <p>If you are a chef, no matter how good a chef you are, it's not good cooking for yourself; the joy is in cooking for others.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Calzone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Italian Salad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Pasta Carbonara</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Panzenella</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Pomodoro E Basilico</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Traditional Italian recipes cover a lot more than just pasta and pizza.</h3>
+                    <p class="fst-italic">These portable meals are great for taking on the go and much better than any fast-food restaurant. </p>
+                    <p>Make a big batch and freeze to enjoy any time. Store-bought pizza dough cuts way down on time, but you can make your own.Stuff with your favorite pizza toppings like sauce, pepperoni, mozzarella, and veggies.
+
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-1.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Fresh and filled with crisp lettuce, ripe juicy tomatoes, olives, onions and of course zesty pepperoncinis.</h3>
+                    <p class="fst-italic">Homemade Italian dressing just takes a few minutes and a few ingredients. It can be stored in your fridge for up to 2 week</p>
+                    <p>To make Italian salad dressing you’ll simply need to combine oil with vinegar and seasonings. Oil and vinegar (or vinaigrette) dressings can separate it’s important you include the teaspoon of dijon or a bit of honey</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-2.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Roman pasta dish derives its name from 'carbone' meaning coal.</h3>
+                    <p class="fst-italic">It was a pasta popular with the coal miners.</p>
+                    <p> The original recipe calls for guanciale, which is pig's cheek, but since its not easily available, the chef has used bacon instead.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-3.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Caprese Salad with Pesto Sauce</h3>
+                    <p class="fst-italic">Nothing like a fresh tomato salad in summers! A great antipasto bite to start your meal with. </p>
+                    <p>This combination of juicy tomatoes and mozzarella cheese salad topped with freshly made pesto sauce is a distinct yet simple one. It offers a twist to the classic caprese salad.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-4.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Pasta Con Pomodoro E Basilico</h3>
+                    <p class="fst-italic">This is the most basic and simplest cooked pasta sauce, hence it is the benchmark of a good Italian home cook</p>
+                    <p>This one boats of being among the original Italian recipes of pasta. easy and quick, this pasta recipe can be made under half an hour. Serve as a breakfast, pack for kid's tiffin or savour as an evening snack.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-5.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="events" class="events">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+        </div>
+
+        <div class="events-slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Birthday Parties</h3>
+                  <div class="price">
+                    <p><span>$189</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Birthday signifies the beginning and joy of every life. Birthdays call for celebrations
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Up to 120 people</li>
+                    <li><i class="bi bi-check-circle"></i>Life music & fireworks</li>
+                    <li><i class="bi bi-check-circle"></i> We can support any number of your guests.</li>
+                  </ul>
+                  <p>
+                    With your heartfelt wishes, gift a wonderful smile to the birthday boy or girl by selecting just the right venue, theme, decor and ideas to celebrate his/her birthday. Choose from an array of Cocktail Party Places, First Birthday Party Venues,
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/event-private.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Private Parties</h3>
+                  <div class="price">
+                    <p><span>$290</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Team up with a brewery or wine merchant to pair drinks with your food and charge a flat fee for the tasting night.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Limited people</li>
+                    <li><i class="bi bi-check-circle"></i> Safe and Secure</li>
+                    <li><i class="bi bi-check-circle"></i> Drugs are restricted</li>
+                  </ul>
+                  <p>
+                    A great way to market these tasting events is to invite a local celebrity or influencer.Their presence alone is guaranteed to attract customers and if they promote the event or your restaurant on their social media platforms, even better.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Custom Parties</h3>
+                  <div class="price">
+                    <p><span>$99</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    You can also invite different brands to have a face-off in your restaurant. Different spirits, beer, and wine companies can compete for the ultimate brand crown.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Limited People</li>
+                    <li><i class="bi bi-check-circle"></i> Opens from 12 AM</li>
+                    <li><i class="bi bi-check-circle"></i> Safe and Secure</li>
+                  </ul>
+                  <p>
+                    If you find enough brands, hold a series with heats, a semi-final and a final. This is a great way to get customers from your community through the door to watch their favourite brands battle it out.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <section id="book-a-table" class="book-a-table">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Book a <span>Table</span></h2>
+          <p>One cannot think well, love well, sleep well, if one has not dined well. We offer an amazing dining experience.</p>
+        </div>
+
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+
+      </div>
+    </section>
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Some photos from <span>Our Restaurant</span></h2>
+          <p>Here are some photos of our restaurant which makes you more addictive and attractive.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="chefs" class="chefs">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Proffesional <span>Chefs</span></h2>
+          <p>Cooking is like love,it should be entered into with complete abandon or not at all..</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Master Chef</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Patissier</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>Cook</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+      <div class="container position-relative">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Saul Goodman is the chief tech consultant / business advisor / CEO and Founder/ taste tester at delicious. Day-to-day, you’ll mostly see him around Food Blogger Pro, WP Tasty, and Nutrifox, as well as hosting the Food Blogger Pro podcast. 
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Communications Manager</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Sara Wilson is the Communications Manager at delicious. She manages much of the day-to-day communication with readers and brands – on and off the blog. 
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Social Media Manager</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Jenna Karlis is the Social Media Manager at delicious. She develops our social media strategy, develops content for posts, and tracks all our analytics/reporting. She also works alongside our teams at Food Blogger Pro, WP Tasty, and Nutrifox to share fun, inspiring content and connect with members and customers.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Writer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Matt Brandon is a writer for delicious. You’ll mostly find her probably overusing all caps on Instagram in the captions and Stories, but she sneaks into some of the blog posts, videos and emails as well.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Video specialist</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  John is the video specialist at delicious. He develops, films, and edits all of our recipe videos that you see here on the blog and on Instagram. He also works alongside our Food Blogger Pro team as our resident video expert, answering questions on the forum and live Q&As.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2><span>Contact</span> Us</h2>
+          <p> “While we’re good with smoke signals, there are simpler ways for us to get in touch.”</p>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container mt-5">
+
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 info">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>A108 Adam Street<br>New York, NY 535022</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-clock"></i>
+              <h4>Open Hours:</h4>
+              <p>Monday-Saturday:<br>11:00 AM - 2300 PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>info@example.com<br>contact@example.com</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-phone"></i>
+              <h4>Call:</h4>
+              <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
+            </div>
+          </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <h3>Delicious</h3>
+      <p>Delicious Restaurant
+        1311 E Broad St
+        Fuquay-Varina, North Carolina</p>
+  
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
+      </div>
+      
+    </div>
+  </footer>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
